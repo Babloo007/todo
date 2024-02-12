@@ -8,13 +8,13 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>net.javaprojects</groupId>
+	<groupId>net.javaproject</groupId>
 	<artifactId>todo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>todo</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot Todo Project</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
