@@ -6,7 +6,6 @@ import net.javaproject.todo.entity.Todo;
 import net.javaproject.todo.repository.TodoRepository;
 import net.javaproject.todo.service.TodoService;
 import org.modelmapper.ModelMapper;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 @Service
