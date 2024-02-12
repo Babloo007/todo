@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="691c1794-3f3e-4bae-95b4-1ada72c60097" name="Changes" comment="second commit">
+    <list default="true" id="691c1794-3f3e-4bae-95b4-1ada72c60097" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/controller/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/service/impl/TodoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/TodoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/TodoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/src/main/java/net/javaprojects/todo/TodoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo-backend/src/test/java/net/javaprojects/todo/TodoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaproject/todo/TodoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/javaproject/todo/TodoApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TodoApplication.executor": "Run",
-    "Application.net.javaproject.todo.TodoApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yaswanth301/Documents/saivenkat/projects/todo/todo-backend-1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TodoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.net.javaproject.todo.TodoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yaswanth301/Documents/saivenkat/projects/todo/todo-backend-1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.net.javaproject.todo.TodoApplication">
     <configuration name="TodoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.javaprojects.todo.TodoApplication" />
@@ -156,12 +154,49 @@
       <option name="project" value="LOCAL" />
       <updated>1707733826136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="merging">
+      <option name="closed" value="true" />
+      <created>1707734223755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707734223755</updated>
+    </task>
+    <task id="LOCAL-00005" summary="merging">
+      <option name="closed" value="true" />
+      <created>1707734265380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707734265380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1707734525389</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707734525389</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="merging" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
