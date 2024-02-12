@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="691c1794-3f3e-4bae-95b4-1ada72c60097" name="Changes" comment="lec-103 commit">
+    <list default="true" id="691c1794-3f3e-4bae-95b4-1ada72c60097" name="Changes" comment="lec-103-1 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/exception/ResourceNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/service/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/service/impl/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/javaproject/todo/service/impl/TodoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/javaproject/todo/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/javaproject/todo/controller/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaproject/todo/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/javaproject/todo/service/TodoService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/javaproject/todo/service/impl/TodoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/javaproject/todo/service/impl/TodoServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707736581714</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lec-103-1 commit">
+      <option name="closed" value="true" />
+      <created>1707737693372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707737693372</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +222,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="lec-103 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lec-103 commit" />
+    <MESSAGE value="lec-103-1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lec-103-1 commit" />
   </component>
 </project>
