@@ -22,7 +22,6 @@ public class TodoServiceImpl implements TodoService {
         // dto to jpa entity
         Todo todo = modelMapper.map(todoDto, Todo.class);
 
-        /* adding jpa entity into repository */
         Todo savedTodo = todoRepository.save(todo);
 
         // jpa entity into dto
