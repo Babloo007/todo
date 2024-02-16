@@ -1,8 +1,17 @@
-import './App.css';
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div className='italic text-emerald-700'>Hello</div>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <div className="flex-grow">
+        <TodoList />
+      </div>
+      <Footer />
+    </div>
   );
 }
 
